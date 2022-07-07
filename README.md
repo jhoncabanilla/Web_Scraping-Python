@@ -1,22 +1,32 @@
 # Web Scraping - Python
 Web Scraping en Python (Introducción)
 
-### ¿Qué es Web Scraping?
+## ¿Qué es Web Scraping?
 Es una técnica que permite extraer datos e información de una web de manera automatizada.
 
-### Campos de aplicación.
+## Campos de aplicación.
 Técnica utilizada especialmente en las primeras fases de proyectos relacionados con:
 - **Big Data**
 - **Machine Learning**
 - **Análisis de datos**
 - **NLP**
 
-#### Reputación online, Análisis de Tendencias
+### Reputación online, Análisis de Tendencias
 
-### Técnica
-- 1. Petición URL
-- 2. Obtener el HTML (contenido)
-- 3. Analizar el contenido (etiquetas, atributos)
-- 4. Extraer datos (Navegación + consultas)
-- 5. Procesamiento de los datos
+## Técnica
+- Petición URL
+- Obtener el HTML (contenido)
+- Analizar el contenido (etiquetas, atributos)
+- Extraer datos (Navegación + consultas)
+- Procesamiento de los datos
 
+## Buenas prácticas
+- **Bots legítimos**
+  - Identificarnos como un bot **User-Agent**
+  - No bloquear el sitio web
+  - Respetar el archivo *robots.txt*
+ - **Usar un API siempre que esté disponible**
+    - Uniformidad de los datos (JSON, XML, ...)
+    - Documentación
+    - Independencia de cambios en la web
+    - No influye en las estadísticas de uso del sitio
