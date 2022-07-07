@@ -36,3 +36,10 @@ Técnica utilizada especialmente en las primeras fases de proyectos relacionados
 - **Librería (HTML, XML)**
 - Especificar un  parser. Transforma el doc en un **árbol de objetos Python (lxml)**
 - En combinación con **request**
+
+### Instalación de Beautiful Soup
+```python
+pip install beautifulsoup4
+pip install lxml
+pip install requests
+```
