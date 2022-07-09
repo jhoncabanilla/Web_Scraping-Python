@@ -42,7 +42,7 @@ for d in soup.div.div.div.children:
 
 """                                             __________________
 
-                                                    Búsquedas
+                                                    BÚSQUEDAS
                                                 __________________
 
                                          
