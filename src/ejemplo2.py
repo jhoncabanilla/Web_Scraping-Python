@@ -25,7 +25,7 @@ import bs4
 
 
 # Abrimos el fichero html que vamos a utilizar
-with open(r'C:\Users\Jhon\OneDrive - Universidad de Valladolid\AAAA_GitHub\Web Scraping - Python\Web_Scraping-Python\src\index.html') as file:
+with open(r'Web_Scraping-Python\src\index.html') as file:
     html = file.read()
 
 # Nodo raiz del arbol de objetos definido a partir del documento HTML

@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 
 
 # Abrimos el fichero html que vamos a utilizar
-with open(r'C:\Users\Jhon\OneDrive - Universidad de Valladolid\AAAA_GitHub\Web Scraping - Python\Web_Scraping-Python\src\index.html') as file:
+with open(r'Web_Scraping-Python\src\index.html') as file:
     html = file.read()
 
 """
