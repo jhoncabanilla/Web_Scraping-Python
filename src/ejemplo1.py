@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 
 
 # Abrimos el fichero html que vamos a utilizar
-with open('index.html') as file:
+with open(r'C:\Users\Jhon\OneDrive - Universidad de Valladolid\AAAA_GitHub\Web Scraping - Python\Web_Scraping-Python\src\index.html') as file:
     html = file.read()
 
 """
@@ -38,11 +38,14 @@ soup = BeautifulSoup(html, 'lxml')
 # Acceso a la etiqueta titulo
 print(soup.title)
 
+# Accesso al contenido de la etiqueta titulo
+print(soup.title.string, "\n")
+
 # Acceso al encabezado h1
-print(soup.h1.string)
+print(soup.h1.string, "\n")
 
 # Acceso al primer enlace
-print(soup.a['href']) # Como si fuese un diccionario
+print(soup.a['href'], "\n") # Como si fuese un diccionario
 
 # Navegacion a traves de los nodos
 print(soup.div.div.div) #¡¡¡PROBLEMA: de esta manera solo recuperamos el primer nodo del arbol!!!
