@@ -43,3 +43,7 @@ pip install beautifulsoup4
 pip install lxml
 pip install requests
 ```
+
+## Scrapy
+Es un Framework open-source de Python que permite realizar web scraping.
+
